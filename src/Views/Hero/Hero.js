@@ -3,7 +3,7 @@ import './Hero.css'
 
 export default function Hero() {
     return (
-        <main>
+        <main class="welcome">
             <h1 data-text='Hello & Welcome!'>Hello & Welcome!</h1>
             <div className='wraper'>
                 <div className='static-text'>

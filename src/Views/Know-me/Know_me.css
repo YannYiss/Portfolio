@@ -1,0 +1,36 @@
+.me {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-left: 120px;
+    background-color: #F4EBD9;
+    color: #483D3F;
+}
+
+.me h1 {
+    margin-top: 50px;
+}
+
+.profile {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_pic {
+    display: block;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+.me #name {
+    color: #045C8B;
+}
+
+
+
