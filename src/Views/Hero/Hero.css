@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+main {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 75px;
+    padding-left: 120px;
+    flex-direction: column;
+    background-color: #483d3f;
+    color: #F4EBD9;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    position: relative;
+    color: #483d3f;
+    -webkit-text-stroke: 0.005vw #F4EBD9;
+}
+    main h1::before {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        color: #88D3FB;
+        -webkit-text-stroke: 0.1vw #88D3FB;
+        border-right: 2px solid #88D3FB;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+        white-space: nowrap ;
+    }
+
+@keyframes animate {
+    0%,10%,100% {
+        width: 0;
+    }
+    70%,90% {
+        width: 100%;
+    }
+}
+
+#name {
+    font-family: 'Licorice', cursive;
+    font-weight: 500;
+    font-size: 6rem;
+    font-style: italic;
+    margin: 0 10px;
+    color: #88D3FB;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.wraper {
+    display: inline-flex;
+}
+
+.dynamic-text {
+    position: relative;
+    top: 45px;
+    overflow: hidden;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding-left: 10px
+}
+
+.dynamic-text li {
+    list-style: none;
+    position: relative;
+    top: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #88D3FB;
+    animation: slide 6s steps(3) infinite;
+}
+@keyframes slide {
+    100% {
+        top: -7.5rem;
+    }
+}
+
+
+.dynamic-text li span{
+    position: relative;
+}
+    .dynamic-text li span::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-left: 2px solid #88D3FB;
+        animation: typing 2s steps(9) infinite;
+        background: #483d3f;
+    }
+    @keyframes typing {
+        100% {
+            left: 100%;
+            margin:0 -30px 0 30px;
+        }
+    }
