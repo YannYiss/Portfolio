@@ -6,6 +6,7 @@
     justify-content: flex-end;
     width: 100vw;
     background-color: #058ED9;
+    z-index: 2;
 }
 
 .links {

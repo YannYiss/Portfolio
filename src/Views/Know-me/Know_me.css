@@ -87,7 +87,7 @@
 .p, .p_image {
     width: 50%;
     overflow: hidden;
-    padding: 10px
+    padding: 15px
 }
 
 #mex {
@@ -104,6 +104,10 @@
     left: 150px;
 }
 
+.p li {
+    font-size: 1.75rem;
+    line-height: 3rem;
+}
 
 
 

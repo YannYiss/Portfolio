@@ -3,6 +3,8 @@ import './Know_me.css';
 import profile from '../../Assets/1925871520_1.jpg';
 import mex from '../../Assets/mexico_city.jpeg';
 import leon from '../../Assets/leon.jpg';
+import study from '../../Assets/studyjpg.jpg';
+import code from '../../Assets/pexels-kevin-ku-577585.jpg';
 
 export default function Know_me() {
     return (
@@ -29,11 +31,44 @@ export default function Know_me() {
                 <div className='bio_section'>
                     <div className='p_image'>
                         <img src={mex} alt='Mexico City'/>
-                        <img src={leon} alt='Leon City'/>
                     </div>
                     <div className='p'>
-                        <p>I'm from Mexico City but I had lived at Leon, Guanajuato, the central part of México called Bajio, since I was 8.</p>
-                        <p>I'm 31, married and dad of a 2 years old wonderful girl named Camila. </p>
+                        <p>I studied Industrial Engeneering, but my true love is for techology, reazon why I decided to get into coding.</p>
+                        <p>I always liked to learn stuff by myself so I started on mw own in my coding path. Currently, I'm taking the Master in Coding course provided by Dev.F, which will boost my skills to become a full-stack developer.</p>
+                    </div>
+                </div>
+                <div className='bio_section'>
+                    <div className='p'>
+                        <p>Some of the front-end technologies that I currently handle includes:</p>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
+                            <li>Bootstrap</li>
+                            <li>SASS</li>
+                            <li>JavaScript ES6</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>
+                        <p>Just to mention some...</p>
+                    </div>
+                    <div className='p_image'>
+                        <img src={code} alt='Coding'/>
+                    </div>
+                </div>
+                <div className='bio_section'>
+                    <div className='p_image'>
+                        <img src={study} alt='Studying Hard'/>
+                    </div>
+                    <div className='p'>
+                        <p>I'll continue learning some technologies in the next months, focused in the back-end development, including:</p>
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Express.js</li>
+                            <li>RESTful APIs</li>
+                            <li>SQL and NoSQL Databases</li>
+                            <li>Docker</li>
+                            <li>CI/CD</li>
+                        </ul>
                     </div>
                 </div>
             </div>
