@@ -4,16 +4,8 @@ import logo from '../../Assets/nicoLogo.png';
 import {Link} from 'react-router-dom';
 
 export default function Sidebar() {
-    const url = window.location.pathname;
-    let sidebar = document.getElementById('sidebar');
-    if (url === '/know-me') {
-        sidebar.style.backgroundColor = 'rgba(5, 142, 217)';
-        
-    } else if('') {
-
-    }
     return (
-        <aside className='sidebar' id='sidebar'>
+        <aside className='sidebar'>
             <Link to='/'><img src={logo} alt='NiCo' id='logo'/></Link>
             <div className='link-icons'>
                 <i className="fab fa-linkedin"></i>

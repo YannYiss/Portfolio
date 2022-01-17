@@ -1,8 +1,11 @@
 import React from 'react'
 import './Hero.css'
+import Sidebar from '../../Components/Sidebar'
 
 export default function Hero() {
     return (
+        <fr>
+        <Sidebar/>
         <main className="welcome">
             <h1 data-text='Hello & Welcome!'>Hello & Welcome!</h1>
             <div className='wraper'>
@@ -16,5 +19,6 @@ export default function Hero() {
                 </ul>
             </div>
         </main>
+        </fr>
     )
 }

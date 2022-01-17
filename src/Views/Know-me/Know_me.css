@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 .me {
-    width: calc(100vw-116px);
     box-sizing: border-box;
     justify-content: space-evenly;
     padding-top: 100px;
-    padding-left: 116px;
-    padding-bottom: 2   0px;
     background-color: #F4EBD9;
     color: #483D3F;
 }
@@ -78,6 +77,7 @@
     font-size: 1.75rem;
     line-height: 3rem;
     text-align: justify;
+    padding: 0 20px;
 }
 
 .bio_section {
@@ -121,7 +121,7 @@
     height: 300px;
     width: auto;
     position: relative;
-    left: 20px;
+    left: 50px;
 }
     #mex:hover {
         height: 325px;
@@ -133,13 +133,17 @@
     height: 250px; 
     position: relative;
     bottom: 75px;
-    left: 150px;
+    left: 200px;
 }
     #leo:hover {
         height: 275px;
         transform: rotate(10deg);
         box-shadow: 5px 5px 10px 10px #483D3F; 
     }
+
+.p ul {
+    padding-left: 70px;
+}
 
 .p li {
     font-size: 1.5rem;
@@ -148,10 +152,26 @@
 
 .close {
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
+    background-color: #058ED9;
 }
 
-.close h2 {
-    font-size: 2.5rem;
+.close h2, .close a {
+    font-size: 1.75rem;
+    color: #fff;
+    text-decoration: none;
 }
+
+#projects {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2.25rem;
+    transition: 1s;
+}
+    #projects:hover {
+        font-size: 2.5rem;
+        text-shadow: 5px 5px 10px 10px #483D3F;
+    }
+
+
+
 
