@@ -1,9 +1,10 @@
 .me {
-    width: 100vw;
+    width: calc(100vw-116px);
     box-sizing: border-box;
     justify-content: space-evenly;
     padding-top: 100px;
     padding-left: 116px;
+    padding-bottom: 2   0px;
     background-color: #F4EBD9;
     color: #483D3F;
 }
@@ -84,11 +85,37 @@
     align-items: center;
 }
 
-.p, .p_image {
+.p, .p_image, .p_image_lg {
     width: 50%;
-    overflow: hidden;
     padding: 15px
 }
+
+.p_image_lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio_image_lg_lft, .bio_image_lg_rgt  {
+    width: 425px;
+    height: auto;
+    transition: 1s;
+}
+    .bio_image_lg_lft:hover {
+        width: 450px; 
+        transform: rotate(-10deg);
+        box-shadow: -5px 5px 10px 10px #483D3F;
+    }
+    .bio_image_lg_rgt:hover {
+        width: 450px; 
+        transform: rotate(10deg);
+        box-shadow: 5px 5px 10px 10px #483D3F; 
+    }
+
+#leo, #mex {
+    transition: 1s;
+}
+
 
 #mex {
     height: 300px;
@@ -96,6 +123,11 @@
     position: relative;
     left: 20px;
 }
+    #mex:hover {
+        height: 325px;
+        transform: rotate(-10deg);
+        box-shadow: -5px 5px 10px 10px #483D3F;
+    }
 
 #leo {
     height: 250px; 
@@ -103,11 +135,23 @@
     bottom: 75px;
     left: 150px;
 }
+    #leo:hover {
+        height: 275px;
+        transform: rotate(10deg);
+        box-shadow: 5px 5px 10px 10px #483D3F; 
+    }
 
 .p li {
-    font-size: 1.75rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
 }
 
+.close {
+    text-align: center;
+    padding: 10px;
+}
 
+.close h2 {
+    font-size: 2.5rem;
+}
 

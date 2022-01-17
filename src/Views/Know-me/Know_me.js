@@ -1,10 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Know_me.css';
 import profile from '../../Assets/1925871520_1.jpg';
 import mex from '../../Assets/mexico_city.jpeg';
 import leon from '../../Assets/leon.jpg';
 import study from '../../Assets/studyjpg.jpg';
 import code from '../../Assets/pexels-kevin-ku-577585.jpg';
+import blueprint from '../../Assets/blueprint.jpg';
 
 export default function Know_me() {
     return (
@@ -29,8 +31,8 @@ export default function Know_me() {
                     </div>
                 </div>
                 <div className='bio_section'>
-                    <div className='p_image'>
-                        <img src={mex} alt='Mexico City'/>
+                    <div className='p_image_lg'>
+                        <img src={blueprint} className='bio_image_lg_lft' alt='Mexico City'/>
                     </div>
                     <div className='p'>
                         <p>I studied Industrial Engeneering, but my true love is for techology, reazon why I decided to get into coding.</p>
@@ -51,13 +53,13 @@ export default function Know_me() {
                         </ul>
                         <p>Just to mention some...</p>
                     </div>
-                    <div className='p_image'>
-                        <img src={code} alt='Coding'/>
+                    <div className='p_image_lg'>
+                        <img src={code} className='bio_image_lg_rgt' alt='Coding'/>
                     </div>
                 </div>
                 <div className='bio_section'>
-                    <div className='p_image'>
-                        <img src={study} alt='Studying Hard'/>
+                    <div className='p_image_lg'>
+                        <img src={study} className='bio_image_lg_lft' alt='Studying Hard'/>
                     </div>
                     <div className='p'>
                         <p>I'll continue learning some technologies in the next months, focused in the back-end development, including:</p>
@@ -71,6 +73,9 @@ export default function Know_me() {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className='close'>
+                <h2>Please, feel free to take a look at some of my <Link to='/projects' className='project_link'>Projects</Link></h2>
             </div>
         </main>
     )
