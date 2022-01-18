@@ -42,7 +42,7 @@
         background: #ff3b8d;
         box-shadow: -40px -100px 0 #07b2ff;
         border-radius: 50%;
-        animation: glow 5s linear infinite;
+        animation: glow 4s linear infinite;
     }
     .pic_frame::after {
         content: '';
@@ -54,7 +54,7 @@
         background: #8dff08;
         box-shadow: -20px -100px 0 #ffeb3b;
         border-radius: 50%;
-        animation: glow 5s linear infinite;
+        animation: glow 4s linear infinite;
     }
     @keyframes glow {
         0% {
@@ -154,6 +154,7 @@
     text-align: center;
     padding: 20px 0;
     background-color: #058ED9;
+    margin-top: 15px;
 }
 
 .close h2, .close a {

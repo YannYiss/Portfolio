@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100vw;
     background-color: #058ED9;
     z-index: 2;
@@ -25,4 +25,9 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #F4EBD9;
+}
+
+#logo_w {
+    height: 100px;
+    padding-left: 10px;
 }
