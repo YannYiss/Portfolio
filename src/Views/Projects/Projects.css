@@ -1,0 +1,28 @@
+.projects {
+    padding-top: 100px;
+    background-color: #F4EBD9;
+    color: #483D3F;
+}
+
+.welcome_projects {
+    display: flex;
+    height: calc(100vh - 104px);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#blueprint {
+    height: 300px;
+    width: 400px;
+}
+
+.welcome_projects h2 {
+    font-size: 3rem;
+}
+
+#projects {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.5rem;
+}

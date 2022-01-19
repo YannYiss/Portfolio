@@ -75,7 +75,7 @@ export default function Know_me() {
                 </div>
             </div>
             <div className='close'>
-                <h2>Please, take some time to browse some of my <Link to='/projects'><span id='projects'>Projects</span></Link></h2>
+                <h2>Please, take some time to browse some of my <Link to='/projects'><span id='projects_links'>Projects</span></Link></h2>
             </div>
         </main>
     )
