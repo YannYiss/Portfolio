@@ -1,6 +1,6 @@
 .projects {
-    padding-top: 100px;
-    background-color: #F4EBD9;
+    padding-top: 116px;
+    background-color: #058ED9;
     color: #483D3F;
 }
 
@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #F4EBD9;
 }
 
 #blueprint {
@@ -22,7 +23,40 @@
     font-size: 3rem;
 }
 
-#projects {
+.sketch {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 3.5rem;
+    font-size: 3.75rem;
 }
+
+.projects_section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    background-color: #F4EBD9;
+}
+
+.projects_section p {
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+
+.projects_section .sketch {
+    font-size: 3rem;
+}
+
+/*Card styles*/
+.card {
+    width: 20rem;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.projects_section .h5 {
+    font-size: 1.75rem;
+}
+
+p.card-text {
+    font-size: 1.5rem;
+}
+

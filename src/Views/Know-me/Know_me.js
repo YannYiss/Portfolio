@@ -11,7 +11,7 @@ import blueprint from '../../Assets/blueprint.jpg';
 export default function Know_me() {
     return (
         <main className='me'>
-            <div className='profile'>
+            <div className='profile' transition-style="in:custom:circle-swoop" >
                 <div className='pic_frame'>
                     <img id='profile_pic' src={profile} alt='Adrian Nieto'/>
                 </div>
@@ -75,7 +75,7 @@ export default function Know_me() {
                 </div>
             </div>
             <div className='close'>
-                <h2>Please, take some time to browse some of my <Link to='/projects'><span id='projects_links'>Projects</span></Link></h2>
+                <h2>Please, take some time to browse some of my <Link to='/projects'><span id='projects_link'>Projects</span></Link></h2>
             </div>
         </main>
     )
