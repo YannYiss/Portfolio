@@ -1,5 +1,5 @@
 .contact_main {
-    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='64' height='64' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(42)'%3E%3Crect width='100%25' height='100%25' fill='rgba(72, 61, 63,1)'/%3E%3Cpath d='M-10 30h60v5h-60zM-10-10h60v5h-60' fill='rgba(5, 142, 217,1)'/%3E%3Cpath d='M-10 11h60v8h-60zM-10-29h60v8h-60z' fill='rgba(244, 235, 217,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+    background-color: #483D3F;
     padding-top: 116px;
     padding-left: 125px;
     display: flex;
@@ -9,10 +9,49 @@
     box-sizing:border-box;
 }
 
+.contact_h2 {
+    margin-top: 125px;
+}
+
+.contact_description {
+    height: calc(100vh - 116px);
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.contact_options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.contact_options h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    margin: 0 10px;
+    color: #F4EBD9;
+    text-shadow: -3px 3px 3px black;
+}
+
+.arrow_l, .arrow_r {
+    display: flex;
+    align-items: center;
+}
+
+.arrow_r img, .arrow_l img {
+    height: 75px;
+
+}
+
 .form {
-    backdrop-filter: blur(3px) saturate(150%);
+    background-color: #F4EBD9;
+    /*backdrop-filter: blur(3px) saturate(150%);
     -webkit-backdrop-filter: blur(3px) saturate(150%);
-    background-color: rgba(255, 255, 255,0.5);
+    background-color: rgba(255, 255, 255,0.5);*/
     border-radius: 15px;
     border: 1px solid rgba(209, 213, 219, 0.3);
     padding: 15px;
@@ -30,7 +69,7 @@
 .contact_description h2 {
     font-size: 4rem;
     color: #F4EBD9;
-    text-shadow: -5px 5px 4px black;
+    text-shadow: -5px 5px 5px black;
 }
 
 #touch {
@@ -42,5 +81,6 @@
 }
 
 .form label {
+    color: #483D3F;
     font-weight: bold;
 }
