@@ -17,7 +17,7 @@
     font-size: 4.5rem;
     position: relative;
     color: #483d3f;
-    -webkit-text-stroke: 0.005vw #F4EBD9;
+    -webkit-text-stroke: 0.05vw #F4EBD9;
 }
     .welcome h1::before {
         content: attr(data-text);
