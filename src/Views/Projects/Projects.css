@@ -52,6 +52,10 @@
     transition: 1s;
 }
 
+.card button {
+    margin-right: 25px;
+}
+
 .projects_section .h5 {
     font-size: 1.75rem;
 }

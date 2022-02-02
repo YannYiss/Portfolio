@@ -3,7 +3,7 @@ import './Contact.css';
 import Sidebar from '../../Components/Sidebar';
 import {Form, Button} from 'react-bootstrap';
 import '@animxyz/core';
-import {XyzTransition, XyzTransitionGroup} from '@animxyz/react';
+import {XyzTransition} from '@animxyz/react';
 import arrow_l from '../../Assets/arow-l.svg';
 import arrow_r from '../../Assets/arrow-r.svg';
 
