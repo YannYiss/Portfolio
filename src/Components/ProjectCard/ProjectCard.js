@@ -4,7 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 
 const ProjectCard = forwardRef((props, ref) => (
         <Card ref={ref}>
-            <Card.Img variant="top" src={props.src} />
+            <Card.Img variant="top" src={props.img_src} />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                 <Card.Text>

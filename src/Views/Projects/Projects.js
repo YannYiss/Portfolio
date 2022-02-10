@@ -5,13 +5,15 @@ import Popup from '../../Components/Modal/Modal';
 import ProjectCard from '../../Components/ProjectCard';
 import '@animxyz/core';
 import {XyzTransitionGroup} from '@animxyz/react';
+import portfolio from '../../Assets/portfolio_portrait.png';
+import ecommerce from '../../Assets/ecommerce.png';
 
 
 export default function Projects() {
     const [modalShow, setModalShow] = useState(false);
-    const [content, setContent] = useState({title: '', img_src: '', det: ''});
-    const handleClick = (title, src, det) => {
-        setContent({title: title, img_src: src, det: det});
+    const [content, setContent] = useState({title: '', img_src: '', det: '', demo: '', git: ''});
+    const handleClick = (title, src, det, demo, git) => {
+        setContent({title: title, img_src: src, det: det, demo: demo, git: git});
         setModalShow(true);
     }
     const ref = createRef();
@@ -45,8 +47,8 @@ export default function Projects() {
 
                 <ProjectCard ref={ref} title='Weather App' img_src='none' desc='Get the current weather conditions in different cities around the wold' det="This is a weather app showcasing the current weather in the searched city. It was made with React functional components, API requests and hooks to handle different states. This project, like the GIF provider, stills under construction but almost completed, some sublte changes will take place in a near future." handleClick={handleClick}/>
 
-                <ProjectCard ref={ref} title='no title' img_src='none' desc='test successful' handleClick={handleClick}/>
-                <ProjectCard ref={ref} title='no title' img_src='none' desc='test successful' handleClick={handleClick}/>
+                <ProjectCard ref={ref} title='Ecommerce App' img_src={ecommerce} desc='My most complex project up to date. A completley functional ecommerce app developed with 4 other teammates' det="This app was developed with React by 4 teammates and I. It has several functions, including login, register as customer or admin, search, add to cart and product details. It has additional functions for admins, like options to create a product, price set and update. This app is connected with an API provided by our school and requests are handled with Ajax. We made full use of React hooks and sincornized our work through GitHub. You can go ahead and create a user to play around, as customer or admin, it's up to you" handleClick={handleClick}/>
+                <ProjectCard ref={ref} title='Porjects Portfolio' img_src={portfolio} desc='Right where you are right now!' det="There's not much that I can say about this project as you have been interacting with it already, so I just wanted to share with you the git link so you can take a look under the hood. I used React for this project as well, and used some new concepts that I recently learned: lazy loading and code splitting. This project will keep updating with as new projects get developed enought to be showcased. Currently, I'm working on the responsive version, that will be deployed shortly." handleClick={handleClick}/>
             </XyzTransitionGroup>
         </main>
     )
