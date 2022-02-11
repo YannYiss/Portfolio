@@ -7,6 +7,10 @@ import '@animxyz/core';
 import {XyzTransitionGroup} from '@animxyz/react';
 import portfolio from '../../Assets/portfolio_portrait.png';
 import ecommerce from '../../Assets/ecommerce.png';
+import basketClub from '../../Assets/basket_club.png';
+import pinterest from '../../Assets/pinterest.png';
+import atm from '../../Assets/atm.png';
+import pokedex from '../../Assets/pokedex.png'
 
 
 export default function Projects() {
@@ -35,13 +39,13 @@ export default function Projects() {
 
                 <p>In this section, will find all the project that mean the most to me. Each on of them was made from scratch by me and they were thought to apply new knowledge and to mix those new concepts with the old ones. <span className='sketch'>Enjoy!</span></p>
 
-                <ProjectCard ref={ref} title='Pinterest Clone' img_src='none' desc='Functionless clone of Pinterest, thought to to practice CSS' det='This is one of my first projects, and its main purpose was to practice vanilla CSS, it has no functionality so it is a really simple project that just looks great!' handleClick={handleClick}/>
+                <ProjectCard ref={ref} title='Pinterest Clone' img_src={pinterest} desc='Functionless clone of Pinterest, thought to to practice CSS' det='This is one of my first projects, and its main purpose was to practice vanilla CSS, it has no functionality so it is a really simple project that just looks great!' handleClick={handleClick}/>
 
-                <ProjectCard ref={ref} title='The Basketclub' img_src='none' desc='Simple landing page for a Basketball club' det='This project was mainly thought to practice responsive design. It has no functionality as it was made only with HTML and vanilla CSS, from mobile-first approach' handleClick={handleClick}/>
+                <ProjectCard ref={ref} title='The Basketclub' img_src={basketClub} desc='Simple landing page for a Basketball club' det='This project was mainly thought to practice responsive design. It has no functionality as it was made only with HTML and vanilla CSS, from mobile-first approach' handleClick={handleClick}/>
 
-                <ProjectCard ref={ref} title='ATM' img_src='none' desc='App that emulates an ATM interface, completley functional' det='This project was thought to integrate HTML, CSS and JavaScrip. It has different option that you can operate, including Transfer, Deposit and Withdraw. Currently, it has some preset users in an array, wich you can use to interact with the ATM. In a near future, I will implement the registration function, so can create your own, meanwhile, you can use admin as user and admin1 as password to play around' handleClick={handleClick}/>
+                <ProjectCard ref={ref} title='ATM' img_src={atm} desc='App that emulates an ATM interface, completley functional' det='This project was thought to integrate HTML, CSS and JavaScrip. It has different option that you can operate, including Transfer, Deposit and Withdraw. Currently, it has some preset users in an array, wich you can use to interact with the ATM. In a near future, I will implement the registration function, so can create your own, meanwhile, you can use admin as user and admin1 as password to play around' handleClick={handleClick}/>
 
-                <ProjectCard ref={ref} title='Pokedex' img_src='none' desc='Pokedex app that let you get stats and info overview of any Pokemon you search for.' det="One of my favorites. This app will give you an overview of the main attributes of any Pokemon that you search either by name or number. It has a random button that will get you exactly that, a random Pokemon, and a function that will let you preview the first generation's 151 Pokemon. You will be able to see the shiny version of the pokemon by clicking on its image on the detial's page" handleClick={handleClick}/>
+                <ProjectCard ref={ref} title='Pokedex' img_src={pokedex} desc='Pokedex app that let you get stats and info overview of any Pokemon you search for.' det="One of my favorites. This app will give you an overview of the main attributes of any Pokemon that you search either by name or number. It has a random button that will get you exactly that, a random Pokemon, and a function that will let you preview the first generation's 151 Pokemon. You will be able to see the shiny version of the pokemon by clicking on its image on the detial's page" handleClick={handleClick}/>
 
                 <ProjectCard ref={ref} title='GIF Provider' img_src='none' desc='Simple app to get the gif you are looking for' det="This was my first React project and I immediatley felt in love with React's potential. It's not completley finished yet as I was focused on understanding the main functionality of React and class components, so the styling was completley left aside. This project it's connected with Giphy API and petitions are handled with Axios.There's not much to explain on this one, you only have to type in a keyword and you will get all gifs related to that search, really straigh forward. In a near feature, this project will get stylised for a better looking, but so far, is completley functional" handleClick={handleClick}/>
 
