@@ -21,9 +21,8 @@ export default function Popup(props) {
             </p>
         </Modal.Body>
         <Modal.Footer>
-            <Button variant='success'>Live Demo</Button>
-            <Button variant='primary'>GitHub</Button>
-            <Button variant='danger' onClick={props.onHide}>Close</Button>
+            <Button variant='primary' href={props.content.git} target='_blank'>GitHub</Button>
+            <Button variant='success' href={props.content.demo} target='_blank'>Live Demo</Button>
         </Modal.Footer>
         </Modal>
     );
