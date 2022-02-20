@@ -47,7 +47,7 @@ export default function Contact() {
                             <Form.Control type="email" placeholder="Enter your email" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="comment">
-                            <Form.Label>Password</Form.Label>
+                            <Form.Label>Question / Comment</Form.Label>
                             <Form.Control as="textarea" rows={3} placeholder="Type in your quesiton or comment" />
                         </Form.Group>
                         <Button variant="primary" type="submit">

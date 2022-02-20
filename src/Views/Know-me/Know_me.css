@@ -28,6 +28,7 @@
     [transition-style="in:custom:circle-swoop"] {
         --transition__duration: 5s;
         animation-name: in-circle-swoop;
+        animation-delay: 0.75s;
     }
 #profile_pic {
     border-radius: 50%;
