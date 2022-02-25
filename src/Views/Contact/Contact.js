@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import Sidebar from '../../Components/Sidebar';
-import {Form, Button} from 'react-bootstrap';
+import {Form, Button, FormControl} from 'react-bootstrap';
 import '@animxyz/core';
 import {XyzTransition} from '@animxyz/react';
 import arrow_l from '../../Assets/arow-l.svg';
@@ -33,7 +33,8 @@ export default function Contact() {
                     </div>
                 </div>
                 <XyzTransition appearVisible xyz='fade small flip-right flip-down  duration-20'>
-                    <Form className='form' action='POST' name='contact' data-netlify='true'>
+                    <Form className='form' method='POST' action='/' name='contact' data-netlify='true'>
+                        <Form.Control type='hidden' name='form-name' value='comment'></Form.Control>
                         <Form.Group className="mb-3" controlId="name_input">
                             <Form.Label>Name</Form.Label>
                             <Form.Control type="text" placeholder="Enter your name" name='name' />
