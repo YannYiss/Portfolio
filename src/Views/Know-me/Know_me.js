@@ -25,8 +25,8 @@ export default function Know_me() {
                 <div className='bio_section'>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
-                            <p>I'm from Mexico City but I had lived at Leon, Guanajuato, the central part of México called Bajio, since I was 8.</p>
-                            <p>I'm 31, married and dad of a 2 years old wonderful girl named Camila. </p>
+                            <p>I'm from Mexico City and I'm currently living in Leon, Guanajuato, the central part of México. I'm 31, married and dad of a 2 years old wonderful girl named Camila. </p>
+                            <p>I'm a tech geek, I really enjoy spending time with my family, I love video games, and I'm always looking to learn new stuff and to face new challenges, reason why you are here right now.</p>
                         </XyzTransitionGroup>
                     </div>
                     <div className='p_image'>
@@ -41,24 +41,23 @@ export default function Know_me() {
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
                             <p>I studied Industrial Engeneering, but my true love is for techology, reazon why I decided to get into coding.</p>
-                            <p>I always liked to learn stuff by myself so I started on mw own in my coding path. Currently, I'm taking the Master in Coding course provided by Dev.F, which will boost my skills to become a full-stack developer.</p>
+                            <p>I've always liked to learn stuff by myself so I started my coding learning journey on my own. It's been an amazing trip, but I realized that it would take me a considerable time to get where I wanted to, so I decided to enroll in the Master in Coding BootCamp taught by <a href='https://www.devf.la/master/encoding/mx' target='_blank' rel='noreferrer'>Dev.F</a>, which will boost my skills to become a full-stack developer.</p>
                         </XyzTransitionGroup>
                     </div>
                 </div>
                 <div className='bio_section'>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
-                            <p>Some of the front-end technologies that I currently handle includes:</p>
+                            <p>Some of the technologies that I currently handle includes:</p>
                             <ul>
                                 <li>HTML 5</li>
                                 <li>CSS 3</li>
-                                <li>Bootstrap</li>
-                                <li>SASS</li>
                                 <li>JavaScript ES6</li>
                                 <li>React</li>
                                 <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>SQL</li>
                             </ul>
-                            <p>Just to mention some...</p>
                         </XyzTransitionGroup>
                     </div>
                     <div className='p_image_lg'>
@@ -73,10 +72,9 @@ export default function Know_me() {
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
                             <p>I'll continue learning some technologies in the next months, focused in the back-end development, including:</p>
                             <ul>
+                                <li>Creation and managment of RESTful APIs</li>
+                                <li>NoSQL Databases</li>
                                 <li>MongoDB</li>
-                                <li>Express.js</li>
-                                <li>RESTful APIs</li>
-                                <li>SQL and NoSQL Databases</li>
                                 <li>Docker</li>
                                 <li>CI/CD</li>
                             </ul>

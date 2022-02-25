@@ -33,7 +33,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <XyzTransition appearVisible xyz='fade small flip-right flip-down  duration-20'>
-                    <Form className='form' method='POST' action='/' name='contact' data-netlify='true'>
+                    <Form className='form' method='POST' name='contact'>
                         <input type='hidden' name='form-name' value='contact'/>
                         <Form.Group className="mb-3" controlId="name_input">
                             <Form.Label>Name</Form.Label>
