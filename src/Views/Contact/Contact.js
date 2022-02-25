@@ -33,22 +33,22 @@ export default function Contact() {
                     </div>
                 </div>
                 <XyzTransition appearVisible xyz='fade small flip-right flip-down  duration-20'>
-                    <Form className='form'>
+                    <Form className='form' method='POST' name='contact' netlify>
                         <Form.Group className="mb-3" controlId="name_input">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" placeholder="Enter your name" />
+                            <Form.Control type="text" placeholder="Enter your name" name='name' />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="last_name">
                             <Form.Label>Last Name</Form.Label>
-                            <Form.Control type="text" placeholder="Enter your last name" />
+                            <Form.Control type="text" placeholder="Enter your last name" name='last_name'/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="email">
                             <Form.Label>Email</Form.Label>
-                            <Form.Control type="email" placeholder="Enter your email" />
+                            <Form.Control type="email" placeholder="Enter your email" name='email'/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="comment">
                             <Form.Label>Question / Comment</Form.Label>
-                            <Form.Control as="textarea" rows={3} placeholder="Type in your quesiton or comment" />
+                            <Form.Control as="textarea" rows={3} placeholder="Type in your quesiton or comment" name='comment'/>
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Submit
