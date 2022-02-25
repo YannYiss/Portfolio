@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import Sidebar from '../../Components/Sidebar';
-import {Form, Button, FormControl} from 'react-bootstrap';
+import {Form, Button} from 'react-bootstrap';
 import '@animxyz/core';
 import {XyzTransition} from '@animxyz/react';
 import arrow_l from '../../Assets/arow-l.svg';
