@@ -25,7 +25,7 @@ export default function Know_me() {
                 <div className='bio_section'>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
-                            <p>I'm from Mexico City and I'm currently living in Leon, Guanajuato, the central part of México. I'm 31, married and dad of a 2 years old wonderful girl named Camila. </p>
+                            <p>I'm from Mexico City and I'm currently living in Leon, Guanajuato, the central part of México. I'm 31, married, and the dad of a 2 years old wonderful girl named Camila.</p>
                             <p>I'm a tech geek, I really enjoy spending time with my family, I love video games, and I'm always looking to learn new stuff and to face new challenges, reason why you are here right now.</p>
                         </XyzTransitionGroup>
                     </div>
@@ -40,7 +40,7 @@ export default function Know_me() {
                     </div>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
-                            <p>I studied Industrial Engeneering, but my true love is for techology, reazon why I decided to get into coding.</p>
+                            <p>I studied Industrial Engineering, but my true love is for technology, reason why I decided to get into coding.</p>
                             <p>I've always liked to learn stuff by myself so I started my coding learning journey on my own. It's been an amazing trip, but I realized that it would take me a considerable time to get where I wanted to, so I decided to enroll in the Master in Coding BootCamp taught by <a href='https://www.devf.la/master/encoding/mx' target='_blank' rel='noreferrer'>Dev.F</a>, which will boost my skills to become a full-stack developer.</p>
                         </XyzTransitionGroup>
                     </div>
@@ -70,7 +70,7 @@ export default function Know_me() {
                     </div>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
-                            <p>I'll continue learning some technologies in the next months, focused in the back-end development, including:</p>
+                            <p>I'll continue learning some technologies in the coming months, focused in the back-end development, including:</p>
                             <ul>
                                 <li>Creation and managment of RESTful APIs</li>
                                 <li>NoSQL Databases</li>

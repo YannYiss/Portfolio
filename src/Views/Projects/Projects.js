@@ -37,7 +37,7 @@ export default function Projects() {
             </div>
             <XyzTransitionGroup appearVisible xyz='fade flip-right perspective duration-20 delay-0.5' className='projects_section'>
 
-                <p>In this section, will find all the project that mean the most to me. Each on of them was made from scratch by me and they were thought to apply new knowledge and to mix those new concepts with the old ones. <span className='sketch'>Enjoy!</span></p>
+                <p>In this section, will find all the projects that have significance for me, and which fulfill the latest technology needs of the industry. <span className='sketch'>Enjoy!</span></p>
 
                 <ProjectCard  title='Pinterest Clone' img_src={pinterest} git='https://github.com/YannYiss/Pinterest' demo='https://affectionate-brattain-4bc1cb.netlify.app/' desc='Functionless clone of Pinterest, thought to practice CSS' det='This is one of my first projects, and its main purpose was to practice vanilla CSS, it has no functionality so it is a really simple project that looks great!' handleClick={handleClick}/>
 
@@ -53,7 +53,7 @@ export default function Projects() {
 
                 <ProjectCard title='Ecommerce App' img_src={ecommerce} git='https://github.com/dcyar/devf-react-ecommerce' demo='https://devf-react-ecommerce.netlify.app/' desc='A completely functional eCommerce app developed with 4 other teammates' det="This app was developed with React by 4 teammates and me. It has several functions, including login, register as customer or admin, product search, add to cart, and product details. It has additional functions for admins to create a product, price set, and price update. This app is connected with an API provided by our school and requests are handled with Axios. We made full use of React hooks and synchronized our work through GitHub. You can create a user to play around with, as a customer or admin, it's up to you" handleClick={handleClick}/>
 
-                <ProjectCard title='Porjects Portfo lio' img_src={portfolio} git='https://github.com/YannYiss/Portfolio' demo='' desc='Right where you are right now!' det="There's not much that I can say about this project as you have been interacting with it already, so I just wanted to share with you the git link so you can take a look under the hood. I used React for this project as well and used some new concepts that I recently learned: lazy loading and code splitting. This project will keep updating as new projects get developed enough to be showcased. Currently, I'm working on the responsive version, which will be deployed shortly." handleClick={handleClick}/>
+                <ProjectCard title='Projects Portfolio' img_src={portfolio} git='https://github.com/YannYiss/Portfolio' demo='https://me-nico.netlify.app/' desc='Right where you are right now!' det="There's not much that I can say about this project as you have been interacting with it already, so I just wanted to share with you the git link so you can take a look under the hood. I used React for this project as well as some new concepts recently learned: lazy loading and code splitting. This project will keep updating as new projects get developed enough to be showcased. Currently, I'm working on the responsive version, which will be deployed shortly." handleClick={handleClick}/>
             </XyzTransitionGroup>
         </main>
     )
