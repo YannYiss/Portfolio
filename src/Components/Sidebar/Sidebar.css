@@ -31,4 +31,30 @@ i {
     color: #0675B1;
 }
 
+/*Smartphone*/
+@media (max-width: 800px) {
+    .sidebar {
+        position: absolute;
+        bottom: 0; 
+        height: auto;
+        width: 100vw;
+        flex-direction: row;
+        padding: 5px 0;
+    }
+    
+    #logo {
+        display: none;
+    }
+    
+    .link-icons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        width: 100%;
+    }
 
+    .link-icons a {
+        height: 55%;
+    }
+    
+}
