@@ -22,7 +22,7 @@ export default function Know_me() {
                 </div>
             </div>
             <div className='bio'>
-                <div className='bio_section'>
+                <div className='bio_section two_pics'>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
                             <p>I'm from Mexico City and I'm currently living in Leon, Guanajuato, the central part of México. I'm 31, married, and the dad of a 2 years old wonderful girl named Camila.</p>
@@ -34,7 +34,7 @@ export default function Know_me() {
                         <img id='leo' src={leon} alt='Leon City'/>
                     </div>
                 </div>
-                <div className='bio_section'>
+                <div className='bio_section rev'>
                     <div className='p_image_lg'>
                             <img src={blueprint} className='bio_image_lg_lft' alt='Mexico City'/>
                     </div>
@@ -64,9 +64,9 @@ export default function Know_me() {
                         <img src={code} className='bio_image_lg_rgt' alt='Coding'/>
                     </div>
                 </div>
-                <div className='bio_section'>
+                <div className='bio_section rev'>
                     <div className='p_image_lg'>
-                        <img src={study} className='bio_image_lg_lft' alt='Studying Hard'/>
+                        <img src={study} className='bio_image_lg_lft' alt='Studying Hard' id='study'/>
                     </div>
                     <div className='p'>
                         <XyzTransitionGroup appearVisible xyz='fade duration-10'>
@@ -82,7 +82,7 @@ export default function Know_me() {
                     </div>
                 </div>
             </div>
-            <div className='close'>
+            <div className='footer'>
                 <h2>Please, take some time to browse some of my <Link to='/projects'><span id='projects_link'>Projects</span></Link></h2>
             </div>
         </main>
