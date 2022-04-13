@@ -81,3 +81,161 @@
     color: #483D3F;
     font-weight: bold;
 }
+
+/*Responsive*/
+
+@media (max-width: 576px) {
+    .contact_main {
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: 91px;
+        height: calc(100vh - 91px);
+        justify-content: flex-start;
+    }
+
+    .contact_description {
+        width: 100%;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .contact_h2 {
+        margin: 25px 0;
+    }
+
+    .contact_h2 h2  {
+        font-size: 1.75rem;
+        display: inline-block;
+    }
+
+    #touch {
+        font-size: 3.5rem;
+        margin-left: 10px;
+    }
+
+    .contact_options {
+        display: none;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .form label {
+        font-size: 0.85rem;
+    }
+
+    .mb-3 {
+        padding-bottom: 0.05rem;
+    }
+}
+    @media (max-height: 720px) {
+        .form {
+            max-height: 300px;
+            overflow: scroll;
+        }
+    }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .contact_main {
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: 116px;
+        height: calc(100vh - 116px);
+        justify-content: space-evenly;
+    }
+
+    .contact_description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .contact_h2 {
+        margin: 0;
+    }
+
+    .contact_h2 h2  {
+        font-size: 3rem;
+        display: inline-block;
+    }
+
+    #touch {
+        font-size: 5rem;
+        margin-left: 10px;
+    }
+
+    .contact_options {
+        display: none;
+    }
+
+    .form {
+        width: 80%;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .contact_main {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contact_description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .contact_h2 {
+        margin: 0;
+    }
+
+    .contact_h2 h2  {
+        font-size: 3rem;
+        display: inline-block;
+    }
+
+    #touch {
+        font-size: 5rem;
+        margin-left: 10px;
+    }
+
+    .contact_options {
+        display: none;
+    }
+
+    .form {
+        width: 65%;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width: 993px) {
+    .contact_description {
+        height: fit-content;
+    }
+
+    .contact_h2 {
+        margin: 0;
+    }
+
+    .contact_h2 h2  {
+        font-size: 4rem;
+    }
+
+    #touch {
+        font-size: 7rem;
+        margin-left: 10px;
+    }
+
+    .contact_options {
+        display: none;
+    }
+
+    .form {
+        width: 40%;
+        margin-right: 70px;
+    }
+}
+

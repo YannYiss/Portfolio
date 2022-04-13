@@ -10,7 +10,7 @@ export default function Hero() {
                 <h1 data-text='Hello & Welcome!'>Hello & Welcome!</h1>
                 <div className='wraper'>
                     <div className='static-text'>
-                    <h2>My name is <span id='name'>Adrian</span>, and this is my</h2>
+                        <h2>My name is <span id='name'>Adrian</span>, and this is my</h2>
                     </div>
                     <ul className='dynamic-text'>
                         <li><span>portfolio</span></li>

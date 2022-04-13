@@ -81,6 +81,8 @@
 
 .me #name {
     color: #045C8B;
+    font-family: 'Licorice', cursive;
+    font-size: 4rem;
 }
 
 .bio {
@@ -131,7 +133,6 @@
     transition: 1s;
 }
 
-
 #mex {
     height: 300px;
     width: auto;
@@ -165,14 +166,14 @@
     line-height: 2.75rem;
 }
 
-.close {
+.footer {
     text-align: center;
     padding: 20px 0;
     background-color: #058ED9;
     margin-top: 15px;
 }
 
-.close h2, .close a {
+.footer h2, .footer a {
     font-size: 1.75rem;
     color: #fff;
     text-decoration: none;
@@ -183,6 +184,165 @@
     font-size: 2.25rem;
 }
 
+/*Responsive*/
+
+@media (max-width: 767px) {
+    .me {
+        padding-top: 91px;
+    }
+
+    .me #name {
+        font-size: 3rem;
+    }
+
+    .profile {
+        height: calc(100vh - 91px); 
+    }
+
+    .bio {
+        padding-top: 0;
+    }
+
+    .bio p {
+        line-height: 2.5rem;
+    }
+
+    .name_div h1 {
+        font-size: 1.5rem;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .bio p, .bio li {
+        font-size: 1rem;
+    }
+
+    .footer h2 {
+        margin: 0px 10px;
+        font-size: 0.85rem;
+    }
+
+    #projects_link {
+        font-size: 1.4rem;
+    }
+
+    .bio img {
+        max-width: 300px;
+    }
+
+    .bio_section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .rev {
+        flex-direction: column-reverse;
+    }
+
+    .p, .p_img {
+        width: 100%;
+    }
+
+    #mex {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #leo {
+        display: none;
+    }
+
+    #study {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .me {
+        padding-top: 91px;
+    }
+
+    .profile {
+        height: calc(100vh - 91px); 
+    }
+
+    .bio {
+        padding-top: 0;
+    }
+
+    .bio p {
+        line-height: 2.5rem;
+    }
+
+    .name_div h1 {
+        font-size: 1.75rem;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .bio p, .bio li, .footer h2 {
+        font-size: 1rem;
+    }
+
+    #projects_link {
+        font-size: 1.4rem;
+    }
+
+    .bio img {
+        max-width: 300px;
+    }
+
+    .bio_section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .rev {
+        flex-direction: column-reverse;
+    }
+
+    .p, .p_img {
+        width: 100%;
+    }
+
+    .two_pics {
+        height: 700px;
+    }
+
+    #mex {
+        position: relative;
+        top: 0;
+        left: -75px;
+        width: 100%;
+        height: auto;
+    }
+
+    #leo {
+        height: 250px; 
+        position: relative;
+        bottom: 150px;
+        left: 120px;
+    }
+
+
+    #study {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #mex {
+        width: 75%;
+        height: auto;
+    }
+
+    #leo {
+        display: none;
+    }   
+}
 
 
 

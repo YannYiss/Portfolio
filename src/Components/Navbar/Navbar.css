@@ -31,3 +31,45 @@
     height: 100px;
     padding-left: 10px;
 }
+
+/*Responsive*/
+@media (max-width: 330px) {
+    #logo_w {
+        display: none;
+    }
+
+    .links {
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+        .links li {
+        padding: 0;
+        line-height: 75px;
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width:331px) and (max-width: 450px) {
+    .links li {
+        padding-right: 1.5rem;
+        line-height: 75px;
+        font-size: 0.7rem;
+    }
+    
+    #logo_w {
+        height: 55px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 650px) {
+    .links li {
+        padding-right: 2rem;
+        line-height: 75px;
+        font-size: 0.8 rem;
+    }
+    
+    #logo_w {
+        height: 70px;
+    }
+}
