@@ -34,8 +34,8 @@ i {
 /*Smartphone*/
 @media (max-width: 800px) {
     .sidebar {
-        position: absolute;
-        bottom: 0; 
+        position: fixed;
+        bottom: 0px; 
         height: auto;
         width: 100vw;
         flex-direction: row;
