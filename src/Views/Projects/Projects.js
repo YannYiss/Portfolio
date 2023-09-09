@@ -13,6 +13,7 @@ import atm from '../../Assets/atm.png';
 import pokedex from '../../Assets/pokedex.png';
 import gif_searcher from '../../Assets/gif_searcher.png';
 import weather from '../../Assets/weather.png';
+import pet_adoption from '../../Assets/pet_adoption.png';
 
 
 export default function Projects() {
@@ -53,7 +54,10 @@ export default function Projects() {
 
                 <ProjectCard title='Ecommerce App' img_src={ecommerce} git='https://github.com/dcyar/devf-react-ecommerce' demo='https://devf-react-ecommerce.netlify.app/' desc='A completely functional eCommerce app developed with 4 other teammates' det="This app was developed with React by 4 teammates and me. It has several functions, including login, register as customer or admin, product search, add to cart, and product details. It has additional functions for admins to create a product, price set, and price update. This app is connected with an API provided by our school and requests are handled with Axios. We made full use of React hooks and synchronized our work through GitHub. You can create a user to play around with, as a customer or admin, it's up to you" handleClick={handleClick}/>
 
+                <ProjectCard title='Pets Adopton Website' img_src={pet_adoption} git='https://github.com/YannYiss/pets-website/' demo='https://pets-adoption-website.netlify.app/' desc='A pet adoption website with a mock API' det='This website was made to practice React Router and API consumption. On the home page, you will see all the available pets in the API, or you can filter by type of pet by clicking on the navlinks. You will see some real-life picture and some fake ones, if you click on a real-life pet, you will be taken to the pet details, while the fake ones will redirect you from the detials page to an error page. It also has a search feature to search by pet name.' handleClick={handleClick}/>
+
                 <ProjectCard title='Projects Portfolio' img_src={portfolio} git='https://github.com/YannYiss/Portfolio' demo='https://me-nico.netlify.app/' desc='Right where you are right now!' det="There's not much that I can say about this project as you have been interacting with it already, so I just wanted to share with you the git link so you can take a look under the hood. I used React for this project as well as some new concepts recently learned: lazy loading and code splitting. This project will keep updating as new projects get developed enough to be showcased. Currently, I'm working on the responsive version, which will be deployed shortly." handleClick={handleClick}/>
+
             </XyzTransitionGroup>
         </main>
     )
