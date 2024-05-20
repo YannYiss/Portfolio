@@ -16,6 +16,7 @@ import weather from '../../Assets/weather.png';
 import pet_adoption from '../../Assets/pet_adoption.png';
 import jammingv2 from '../../Assets/jammingv2.png';
 import jamming from '../../Assets/jamming.png';
+import appointmentPlanner from '../../Assets/appointment_planner.png';
 
 
 export default function Projects() {
@@ -61,6 +62,8 @@ export default function Projects() {
                 <ProjectCard title='Jamming with Spotify' img_src={jamming} git='https://github.com/YannYiss/Jamming' demo='https://jammingwithspotify.netlify.app' desc='Create a playlist and add it to your Spotify account' det='This a completley functional project that let you create a playlist and save it to your spotify account. It was made with React and connected with the Spotify API. Spotify requires to have the user who wants to log in previously registered in the app to get access to it (as it is in dev mode), so you can give it a try by using the following user: user: trymyapps_nico@outlook.com / password: tryitout123*, you can also drop me a message in the contact page if you want to get registered in the app to try it with your own account ;)' handleClick={handleClick}/>
 
                 <ProjectCard title='Jamming V2.0' img_src={jammingv2} git='https://github.com/YannYiss/JammingV2.0' demo='https://jammingwithspotifyv2.netlify.app' desc='New and improved version of the Jamming app' det='This is a built-from-scratch new Jamming app with some new features and improved architecture, as it was intended to use a React container/presentational components approach and CSS modules. Same as the previous Jamming app, it is a completley functional project that let you create a playlist and save it to your spotify account. Spotify requires to have the user who wants to log in previously registered in the app to get access to it (as it is in dev mode), so you can give it a try by using the following user: user: trymyapps_nico@outlook.com / password: tryitout123*, you can also drop me a message in the contact page if you want to get registered in the app to try it with your own account ;)' handleClick={handleClick}/>
+
+                <ProjectCard title='Appointment Planner' img_src={appointmentPlanner} git='https://github.com/YannYiss/appointment-planner' demo='https://appointmentsplanner.netlify.app/' desc='Applaciton to handle contacts and appointments.' det='This application was developed with React and was made mainly to practice React Router. It has to pages, one to view existing contacts and to register new ones, and one page to view existing appointments and to register new ones, linked to exisitng contacts.' handleClick={handleClick}/>
 
                 <ProjectCard title='Projects Portfolio' img_src={portfolio} git='https://github.com/YannYiss/Portfolio' demo='https://me-nico.netlify.app/' desc='Right where you are right now!' det="There's not much that I can say about this project as you have been interacting with it already, so I just wanted to share with you the git link so you can take a look under the hood. I used React for this project as well as some new concepts recently learned: lazy loading and code splitting. This project will keep updating as new projects get developed enough to be showcased. Currently, I'm working on the responsive version, which will be deployed shortly." handleClick={handleClick}/>
 
